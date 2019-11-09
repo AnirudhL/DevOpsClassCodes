@@ -491,5 +491,19 @@
             </reporting>
         </profile>
     </profiles>
+ 
+ <distributionManagement>
+    <repository>
+      <id>addressbook-releases</id>
+      <name>addressbook-releases</name>
+      <url></url>
+    </repository>
+    <snapshotRepository>
+      <id>addressbook-snapshots</id>
+      <name>addressbook-snapshots</name>
+      <url></url>
+    </snapshotRepository>
+  </distributionManagement>
+
 
 </project>
