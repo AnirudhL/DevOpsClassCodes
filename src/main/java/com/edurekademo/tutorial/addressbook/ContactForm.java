@@ -29,8 +29,8 @@ public class ContactForm extends FormLayout {
     TextField lastName = new TextField("Last name");
     TextField phone = new TextField("Phone");
     TextField email = new TextField("Email");
-    TextField email1 = new TextField("FatherName");
-    TextField email2 = new TextField("MotherName");
+    TextField email1 = new TextField("email1");
+    TextField email2 = new TextField("Email2");
     DateField birthDate = new DateField("Birth date");
 
     Contact contact;
